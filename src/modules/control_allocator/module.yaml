@@ -399,6 +399,8 @@ parameters:
                 2: '2'
                 3: '3'
                 4: '4'
+                5: '5'
+                6: '6'
             default: 0
         CA_SV_TM${i}_MINA:
             description:

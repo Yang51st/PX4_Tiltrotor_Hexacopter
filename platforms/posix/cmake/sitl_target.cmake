@@ -181,6 +181,7 @@ set(models
 	#*** CUSTOM
 	NDT_tilting
 	baby_k
+	kolibri
 	#*** END-CUSTOM
 )
 
