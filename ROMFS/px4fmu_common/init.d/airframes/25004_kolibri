@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# @name Kolibiri
+# @name Kolibri
 #
 # @type Tilting Multirotor
 # @class Copter
@@ -19,7 +19,7 @@
 # @output AUX5 servo 5
 # @output AUX6 servo 6
 #
-# @maintainer Salvatore Marcellini <salvatore.marcellini@gmail.com>
+# @maintainer Yang Li <yangli052903@gmail.com>
 #
 
 . ${R}etc/init.d/rc.mc_defaults
