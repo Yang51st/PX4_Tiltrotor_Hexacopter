@@ -40,41 +40,41 @@ set PWM_AUX_OUT 123456
 param set-default CA_ROTOR_COUNT 6
 param set-default CA_SV_TL_COUNT 6
 
-# Rotor positions (meters) around center (regular hexagon), starting at 0° and going CCW:
-# 0°:  ( 0.150,  0.000)
-# 60°: ( 0.075,  0.130)
-#120°: (-0.075,  0.130)
-#180°: (-0.150,  0.000)
-#240°: (-0.075, -0.130)
-#300°: ( 0.075, -0.130)
+# Rotor positions (meters) around center (regular hexagon), starting at 0 deg and going CCW:
+# 0 deg:  ( 0.150,  0.000)
+# 60 deg: ( 0.075,  0.130)
+#120 deg: (-0.075,  0.130)
+#180 deg: (-0.150,  0.000)
+#240 deg: (-0.075, -0.130)
+#300 deg: ( 0.075, -0.130)
 # All rotors mounted roughly in the same plane: PZ = 0.00
 
-param set-default CA_ROTOR0_PX 0.150  # M1 (0°)
+param set-default CA_ROTOR0_PX 0.150  # M1 (0 deg)
 param set-default CA_ROTOR0_PY 0.000
 param set-default CA_ROTOR0_PZ 0.00
 param set-default CA_ROTOR0_KM -0.05  # M1 CW
 
-param set-default CA_ROTOR1_PX 0.075  # M2 (60°)
+param set-default CA_ROTOR1_PX 0.075  # M2 (60 deg)
 param set-default CA_ROTOR1_PY 0.130
 param set-default CA_ROTOR1_PZ 0.00
 param set-default CA_ROTOR1_KM 0.05   # M2 CCW
 
-param set-default CA_ROTOR2_PX -0.075 # M3 (120°)
+param set-default CA_ROTOR2_PX -0.075 # M3 (120 deg)
 param set-default CA_ROTOR2_PY 0.130
 param set-default CA_ROTOR2_PZ 0.00
 param set-default CA_ROTOR2_KM -0.05  # M3 CW
 
-param set-default CA_ROTOR3_PX -0.150 # M4 (180°)
+param set-default CA_ROTOR3_PX -0.150 # M4 (180 deg)
 param set-default CA_ROTOR3_PY 0.000
 param set-default CA_ROTOR3_PZ 0.00
 param set-default CA_ROTOR3_KM 0.05   # M4 CCW
 
-param set-default CA_ROTOR4_PX -0.075 # M5 (240°)
+param set-default CA_ROTOR4_PX -0.075 # M5 (240 deg)
 param set-default CA_ROTOR4_PY -0.130
 param set-default CA_ROTOR4_PZ 0.00
 param set-default CA_ROTOR4_KM -0.05  # M5 CW
 
-param set-default CA_ROTOR5_PX 0.075  # M6 (300°)
+param set-default CA_ROTOR5_PX 0.075  # M6 (300 deg)
 param set-default CA_ROTOR5_PY -0.130
 param set-default CA_ROTOR5_PZ 0.00
 param set-default CA_ROTOR5_KM 0.05   # M6 CCW
